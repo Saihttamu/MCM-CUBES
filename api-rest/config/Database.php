@@ -1,9 +1,11 @@
+<?php
+
 class Database{
     // Propriétés de la base de données
     private $host = "localhost";
     private $db_name = "api";
     private $username = "root";
-    private $password = "";
+    private $password = "malonais";
     public $connexion;
 
     // getter pour la connexion
@@ -23,3 +25,5 @@ class Database{
         return $this->connexion;
     }   
 }
+
+?>
